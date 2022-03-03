@@ -5,7 +5,7 @@ namespace PhpValueObjects\Tests\Collection;
 
 use PhpValueObjects\Collection\Exception\InvalidCollectionObjectException;
 
-class CollectionTest extends \PHPUnit_Framework_TestCase
+class CollectionTest extends \PHPUnit\Framework\TestCase
 {
     /**
      * @test

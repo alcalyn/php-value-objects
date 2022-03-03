@@ -4,7 +4,7 @@
 namespace PhpValueObjects\Tests\Scalar;
 
 
-class StringNullableValueObjectTest extends \PHPUnit_Framework_TestCase
+class StringNullableValueObjectTest extends \PHPUnit\Framework\TestCase
 {
     /**
      * @test

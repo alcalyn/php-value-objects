@@ -52,5 +52,7 @@ class MultiPolygonValueObjectTest extends BaseUnitTestCase
         ];
 
         $multiPolygon = new MultiPolygonValueObject($data);
+
+        $this->assertInstanceOf(MultiPolygonValueObject::class, $multiPolygon);
     }
 }
